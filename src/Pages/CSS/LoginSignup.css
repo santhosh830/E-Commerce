@@ -1,0 +1,100 @@
+/* Container for the full login/signup area */
+.loginsignup {
+    width: 100%;
+    height: 80vh;
+    background: #fce3f3;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for the form itself */
+.loginsignup-container {
+    width: 580px;
+    height: auto; /* Changed to auto to fit content dynamically */
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Heading */
+.loginsignup-container h1 {
+    margin: 20px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Fields container */
+.loginsignup-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adjusted gap */
+    margin: 30px 0;
+}
+
+/* Input fields */
+.loginsignup-fields input {
+    height: 40px; /* Adjusted height */
+    width: 100%; /* Adjusted to fill container */
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 16px; /* Adjusted font size */
+    border-radius: 5px; /* Added border-radius for a smoother look */
+}
+
+/* Submit button */
+.loginsignup-container button {
+    width: 100%; /* Adjusted to fill container */
+    height: 50px; /* Adjusted height */
+    color: white;
+    background: #ff4141;
+    margin-top: 20px; /* Adjusted margin */
+    border: none;
+    font-size: 18px; /* Adjusted font size */
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px; /* Added border-radius for a smoother look */
+}
+
+.loginsignup-container button:hover {
+    background: #e63939; /* Added hover effect */
+}
+
+/* Login link */
+.loginsignup-login {
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 16px; /* Adjusted font size */
+    font-weight: 500;
+}
+
+.loginsignup-login span {
+    color: #ff4141;
+    font-weight: 600;
+    cursor: pointer; /* Added cursor pointer */
+}
+
+.loginsignup-login a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from span */
+}
+
+/* Terms and conditions */
+.loginsignup-agree {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 10px; /* Adjusted gap */
+    color: #5c5c5c;
+    font-size: 16px; /* Adjusted font size */
+    font-weight: 500;
+}
+
+.loginsignup-agree input {
+    margin-right: 10px; /* Added margin-right for better spacing */
+}
